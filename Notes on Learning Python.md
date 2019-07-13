@@ -55,20 +55,40 @@ Common operations of sequences:
 These generic operations show up as built-in functions or expressions (e.g. len(x)) but type specific operations are called method calls (e.g. string.upper())
 
 ### Strings
+```
+>>> S = 'spam'
+>>> S
+'spam'
+>>> len(S)
+4
+>>> S[0]
+'s'
+>>> S[1]
+'p'
+>>> S[:]
+'spam'
+```
+
 
 To change a string's value,
 
 S = spam
 
 1) Built-in / Sequence Operations 
+
+```
 L = list(S) 
 L[1] = 'c' 
 ''.join(L) = scam
+```
+
 
 2) String Methods
+```
 S.replace('pa', 'XYZ')
 S
 >>> sXYZam
+```
 
 Note: The original string has not been changed (as strings are immutable) but rather new strings 'scam' and 'sXYZam' are being created.
 
