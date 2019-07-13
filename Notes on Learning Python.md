@@ -42,7 +42,37 @@ Python comes with built-in data structures that makes programming in Python easi
 | Sets  | {'i', 'j'}; set() | |
 | Files  | myfile = open('eggs', 'r') | |
 
+## Sequences
+A sequence is a positionally ordered collection of other objects i.e. a group of objects that are arranged in an order.
+Strings, lists and tuples are all sequences.
+Common operations of sequences:
+- len(x) returns the number of elements in the group
+- indexing e.g. s[n_index] to retrieve the item in n position
+- slicing e.g. s[i:j] to obtain items from i position up to but excluding j position
+- concatenation e.g. '+'
+- repetition e.g. '*'
+
+These generic operations show up as built-in functions or expressions (e.g. len(x)) but type specific operations are called method calls (e.g. string.upper())
+
 ### Strings
+
+To change a string's value,
+
+S = spam
+
+1) Built-in / Sequence Operations 
+L = list(S) 
+L[1] = 'c' 
+''.join(L) = scam
+
+2) String Methods
+S.replace('pa', 'XYZ')
+S
+>>> sXYZam
+
+Note: The original string has not been changed (as strings are immutable) but rather new strings 'scam' and 'sXYZam' are being created.
+
+### Numbers
 
 
 
