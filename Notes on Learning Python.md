@@ -19,15 +19,29 @@ A representation of the memory location of the object can be obtained by calling
 
 A program cannot change an object's type or location, but some data types allow Python statements to change its value (e.g. list)
 
-Python comes with built-in data structures that makes programming in Python easier and more efficient. Some of the basic types are introduced in the following table.
+Polymorphism: In Python, the meaning (and operation) of the function depends on the underlying object type. For instance:
 
-
-
+| Operations  | Numbers | Strings| Lists|
+| ------------- | ------------- | ------------- | ------------- |
+| '+' | addition: 1+2=3 | concatenation: '1' + '2' = '12' | concatenation: [1] + [2] = [1, 2]|
+| '*' | multiplication: 1*2=2 | repetition: '1' * 2 = '11' | repetition: [1]*2 = [1, 1]|
 
 
 
 ## Python's Core Data Types
-Strings, Numbers, Lists, Dictionaries, Tuples, Files & Sets
+Python comes with built-in data structures that makes programming in Python easier and more efficient. Some of the basic types are introduced in the following table.
+
+
+| Core Data Types  | Example literals/creation | Properties|
+| ------------- | ------------- | ------------- |
+| Numbers e.g. int/float/complex  | 1234, 3.1415, 3+4j, Decimal, Fraction  | Immutable |
+| Strings  | single/double quotes (''),(""); str(object) | Immutable, Sequence|
+| Lists  | [1, ['abc', 'def'],2]; list() | Sequence, Can be nested|
+| Dictionaries  | {'food': 'spam', 'taste': 'yum'}, dict(key=value)|Mapping, Can be nested|
+| Tuples  | (1,) | Immutable, Sequence, Can be nested|
+| Sets  | {'i', 'j'}; set() | |
+| Files  | myfile = open('eggs', 'r') | |
+
 ### Strings
 
 
