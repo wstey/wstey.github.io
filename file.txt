@@ -1,2 +1,2 @@
-practicing git
-"Hi, I am practising git today!"
+Hi, I am practising git today!
+Now I'm editing this file from Github.
