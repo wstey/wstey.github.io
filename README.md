@@ -18,5 +18,8 @@ I'm in a blue box!
 ##### How small can this get?
 Looks like any titles with more than 2 #s only gets bolded.
 
+## To close an issue
+New addition to test kanban.
+
 ## The End
 If you want a line beneath the title, use one/two # for the title
