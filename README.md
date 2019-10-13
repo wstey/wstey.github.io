@@ -1,3 +1,4 @@
+![headshot](file.txt)
 # Something about this
 This is my first README! Currently following the instructions on 'Github for Dummies'!
 
